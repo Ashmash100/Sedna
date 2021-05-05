@@ -1,0 +1,10 @@
+
+  
+  @mixin hover($bg,$txt) {
+    &:hover {
+      background-color: $bg;
+      color: $txt;
+      border-color: $bg;  
+      transition: 0.2s ease-in;  
+    }
+}

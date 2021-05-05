@@ -1,0 +1,31 @@
+.sketch {
+    padding: 125px 0;  
+    
+    .macbook {  
+      float: right;
+      width: 690px;
+      right: 0;
+    }
+  
+    article {
+      width: 500px;
+      position: relative;
+      top: 90px;
+    }
+  
+    h3 {      
+      margin-bottom: 20px;
+      color: $textGrey;
+    }
+  
+    p {
+      font-size: 15px;
+      color: $textLightGrey;
+      font-weight: 100;
+      line-height: 1.5;
+      margin-bottom: 40px;
+    }
+  
+    
+    
+  }

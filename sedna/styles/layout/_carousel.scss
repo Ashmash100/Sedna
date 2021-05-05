@@ -1,0 +1,43 @@
+.carousel {
+    background: url("../images/93-copy.jpg") no-repeat center / cover;
+    padding: 130px 0;
+    text-align: center;
+    color: white;
+    position: relative;
+  
+    article {
+      h1 {
+        font-size: 40px;
+        font-weight: 300;
+        font-style: italic;
+        margin-bottom: 25px;
+      }
+  
+      h5 {
+        font-weight: 100;
+        letter-spacing: 1px;
+        color: #acb1b4;
+      }
+  
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 4px solid white;
+        margin-bottom: 25px;
+      }
+    }
+  
+    .ellipse {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 25px;
+  
+      img {
+        width: 14px;
+        margin-right: 3px;
+      }
+    }
+  }

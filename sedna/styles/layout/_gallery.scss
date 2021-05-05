@@ -1,0 +1,39 @@
+.gallery {
+    text-align: center;
+    padding-bottom: 100px;
+    background: $bgGrey;
+  
+    article {
+      width: calc(100% / 3);
+      float: left;
+      color: #acb1b4;
+      position: relative;
+      margin-bottom: 60px;
+  
+      img {
+        margin-bottom: 35px;
+        width: 100%;
+      }
+  
+      a {
+        margin: 15px 10px 0 0;
+        font-size: 15px;
+        display: inline-block;        
+        color: inherit;
+      }
+  
+      .arrow {
+        width: 10px;
+        margin-bottom: 0;
+        cursor: pointer;
+      }
+  
+      .search {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 20px;
+      }
+    }  
+   
+  }

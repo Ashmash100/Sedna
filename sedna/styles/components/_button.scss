@@ -1,0 +1,45 @@
+.btn {
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 13px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-square {
+  padding: 15px;
+  border: none;
+  background: #ff5274;
+  color: white;
+  border-radius: 5px;  
+}
+
+.btn-solid-pink {
+  background: $pink;
+  border: none;
+  color: white;
+}
+
+.btn-outline-pink {
+  border: 2px solid $pink;
+  background: transparent;
+  cursor: pointer;
+  color: $pink;
+  @include hover($pink, white);
+}
+
+.btn-outline-white {
+  padding: 7px 30px;
+  background: transparent;
+  border-radius: 40px;
+  border: 2px solid white;
+  color: white;
+  @include hover(white, $textGrey);
+}
+
+.btn-lg {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  padding: 0;
+}
